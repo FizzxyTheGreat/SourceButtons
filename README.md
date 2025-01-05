@@ -2,6 +2,7 @@
 ## Hii i'm Fizzxy 👋
 ## Using @fizzxydev/baileys-pro
 
+```
 You Visitors To:
 ```
 ![](https://komarev.com/ghpvc/?username=andyjavadams&label=PROFILE+VIEWS)
@@ -21,7 +22,6 @@ ___
 
 ___
 ## NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
-```
 
 ## Buttons Message:
 ```
