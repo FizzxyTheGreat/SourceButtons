@@ -1,6 +1,8 @@
 
 ## Hii i'm Fizzxy 👋
-## Using @fizzxydev/baileys-pro or [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
+## Using @fizzxydev/baileys-pro
+
+NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
 
 Buttons Message:
 ```
