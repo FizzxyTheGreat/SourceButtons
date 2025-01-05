@@ -2,7 +2,26 @@
 ## Hii i'm Fizzxy 👋
 ## Using @fizzxydev/baileys-pro
 
-NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
+You Visitors To:
+```
+![](https://komarev.com/ghpvc/?username=andyjavadams&label=PROFILE+VIEWS)
+
+
+![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=Aku hanya bisa memprogram nya, jika code nya benar, program itu akan berjalan sesuai keinginan pemilik nya.(masalahnya bukan soal programnya 😁)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
+
+___
+
+<p align="center">
+
+  <a href="https://github.com/andyjavadams"><img title="Author" src="https://img.shields.io/badge/Author-andyjavadams-red.svg?style=for-the-badge&logo=github" /></a>
+
+
+
+</p>
+
+___
+## NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
+```
 
 ## Buttons Message:
 ```
