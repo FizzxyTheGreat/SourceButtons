@@ -1,10 +1,7 @@
 <h1 align="center">Hai aku Fizzxy! <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt="Hamlo"><br></h1>
 
-```
-You Visitors To:
-```
 ![](https://komarev.com/ghpvc/?username=FizzxyDev&label=PROFILE+VIEWS)
-## Using @fizzxydev/baileys-pro
+## Using Baileys @fizzxydev/baileys-pro
 ## NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
 ## Any Question? : [Whatsapp](wa.me/6285172200670)
 
