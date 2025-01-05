@@ -8,7 +8,7 @@ You Visitors To:
 ![](https://komarev.com/ghpvc/?username=andyjavadams&label=PROFILE+VIEWS)
 
 
-![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=Aku hanya bisa memprogram nya, jika code nya benar, program itu akan berjalan sesuai keinginan pemilik nya.(masalahnya bukan soal programnya 😁)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
+![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=Aku℅20hanya℅20bisa℅20memprogram℅20nya℅20jika℅20code℅20nya benar℅20program℅20itu℅20akan℅20berjalan℅20sesuai℅20keinginan℅20pemilik℅20nya℅20(masalahnya℅20bukan℅20soal℅20programnya)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
 
 ___
 
