@@ -3,16 +3,16 @@
 ```
 You Visitors To:
 ```
-![](https://komarev.com/ghpvc/?username=andyjavadams&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=FizzxyDev&label=PROFILE+VIEWS)
 
 
-![My Card ](https://cardivo.vercel.app/api?name=andyjavadams%20&description=Jika%20ada%20seseorang%20yang%20menghinamu%20dan%20mempermalukanmu%20dengan%20sesuatu%20yang%20ia%20ketahui%20ada%20padamu,%20maka%20janganlah%20engkau%20membalasnya%20dengan%20sesuatu%20yang%20engkau%20ketahui%20ada%20padanya.%20Akibat%20buruk%20biarlah%20ia%20yang%20menanggungnya.”%20(%20HR.%20Abu%20Daud%20no.%204084%20)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@andy.jees&github=andyjavadams&pattern=leaf&colorPattern=%23eaeaea)
+![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=Aku℅20hanya℅20bisa℅20memprogram℅20nya℅20jika℅20code℅20nya benar℅20program℅20itu℅20akan℅20berjalan℅20sesuai℅20keinginan℅20pemilik℅20nya℅20(masalahnya℅20bukan℅20soal℅20programnya)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
 
 ___
 
 <p align="center">
 
-  <a href="https://github.com/andyjavadams"><img title="Author" src="https://img.shields.io/badge/Author-andyjavadams-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/FizzxyDev"><img title="Author" src="https://img.shields.io/badge/Author-FizzxyDev-red.svg?style=for-the-badge&logo=github" /></a>
 
 
 
