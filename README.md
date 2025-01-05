@@ -19,8 +19,10 @@ client.sendMessage(m.chat, {
      headerType: 1,
      viewOnce: true
  },{ quoted: null })
+ ```
  
-// send location buttons
+send location buttons:
+```
 client.sendMessage(m.chat, {
   location: {
     degreesLatitude: -6.2088, // Ganti dengan latitude lokasi
@@ -38,9 +40,11 @@ client.sendMessage(m.chat, {
   headerType: 6,
   viewOnce: true
 }, { quoted: m });
+```
 
 
-// send image buttons
+ send image buttons:
+ ```
   client.sendMessage(m.chat, {
   image: { url: "LINK YOUR IMAGE" },
   caption: "Ini pesan gambar Buttons", 
@@ -57,8 +61,10 @@ client.sendMessage(m.chat, {
   headerType: 1,
   viewOnce: true
 }, { quoted: m })
+```
 
-// send document buttons
+send document buttons:
+```
 let buttonMessage = {
   document: { url: "https://www.youtube.com/" },
   mimetype: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -98,8 +104,10 @@ let buttonMessage = {
 };
 
 return await client.sendMessage(m.chat, buttonMessage, { quoted: null });
+```
 
-// send all buttons interactive
+ send all buttons interactive:
+ ```
 const { generateWAMessageFromContent, proto } = require("@FizzxyDev/BaileysPro")
 let msg = generateWAMessageFromContent(m.chat, {
   viewOnceMessage: {
