@@ -2,25 +2,6 @@
 ## Hii i'm Fizzxy 👋
 ## Using @fizzxydev/baileys-pro
 
-```
-You Visitors To:
-```
-![](https://komarev.com/ghpvc/?username=andyjavadams&label=PROFILE+VIEWS)
-
-
-![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=Aku℅20hanya℅20bisa℅20memprogram℅20nya℅20jika℅20code℅20nya benar℅20program℅20itu℅20akan℅20berjalan℅20sesuai℅20keinginan℅20pemilik℅20nya℅20(masalahnya℅20bukan℅20soal℅20programnya)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
-
-___
-
-<p align="center">
-
-  <a href="https://github.com/andyjavadams"><img title="Author" src="https://img.shields.io/badge/Author-andyjavadams-red.svg?style=for-the-badge&logo=github" /></a>
-
-
-
-</p>
-
-___
 ## NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
 
 ## Buttons Message:
