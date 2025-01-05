@@ -4,7 +4,7 @@
 
 NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
 
-Buttons Message:
+## Buttons Message:
 ```
 // send old a buttons
 client.sendMessage(m.chat, {
@@ -21,7 +21,7 @@ client.sendMessage(m.chat, {
  },{ quoted: null })
  ```
  
-send location buttons:
+## send location buttons:
 ```
 client.sendMessage(m.chat, {
   location: {
@@ -43,7 +43,7 @@ client.sendMessage(m.chat, {
 ```
 
 
- send image buttons:
+## send image buttons:
  ```
   client.sendMessage(m.chat, {
   image: { url: "LINK YOUR IMAGE" },
@@ -63,7 +63,7 @@ client.sendMessage(m.chat, {
 }, { quoted: m })
 ```
 
-send document buttons:
+## send document buttons:
 ```
 let buttonMessage = {
   document: { url: "https://www.youtube.com/" },
@@ -106,7 +106,7 @@ let buttonMessage = {
 return await client.sendMessage(m.chat, buttonMessage, { quoted: null });
 ```
 
- send all buttons interactive:
+## send all buttons interactive:
  ```
 const { generateWAMessageFromContent, proto } = require("@FizzxyDev/BaileysPro")
 let msg = generateWAMessageFromContent(m.chat, {
@@ -174,5 +174,49 @@ let msg = generateWAMessageFromContent(m.chat, {
 }, {})
 
 return client.relayMessage(msg.key.remoteJid, msg.message, { messageId: msg.key.id })
+```
+
+## buttons double:
+```
+client.sendMessage(m.key.remoteJid, {
+  text: "Hello Wolrd !;", 
+  footer: "© Fizzxy Dev",
+  buttons: [
+    { 
+      buttonId: '.owner', 
+      buttonText: { displayText: 'Dev bot' }, 
+      type: 1,
+      viewOnce: true
+    },
+    { 
+      buttonId: 'huu', 
+      buttonText: { displayText: '\nSaya pedo:v' }, 
+      type: 1,
+      viewOnce: true
+    },
+    { 
+      buttonId: 'action', 
+      buttonText: { displayText: 'pajangan' }, 
+      type: 4, 
+      nativeFlowInfo: {
+        name: 'quick_reply', 
+        buttonParamsJson: '{"display_text":"quick_reply","id":".play a thousand year"}',
+      },
+      viewOnce: true
+    },
+    { 
+      buttonId: 'cta_url', 
+      buttonText: { displayText: 'Go to URL' }, 
+      type: 4, 
+      nativeFlowInfo: {
+        name: 'cta_url',
+        buttonParamsJson: '{"display_text":"url","url":"https://www.google.com","merchant_url":"https://www.google.com"}'
+      },
+      viewOnce: true
+    }
+  ],
+  headerType: 1,
+  viewOnce: true
+}, { quoted: m });
 ```
 
