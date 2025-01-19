@@ -3,7 +3,8 @@
 ![](https://komarev.com/ghpvc/?username=FizzxyDev&label=PROFILE+VIEWS)
 ## Using Baileys @fizzxydev/baileys-pro
 ## NpmJs: [Click Here](https://www.npmjs.com/package/@fizzxydev/baileys-pro)
-## Any Question? : [Whatsapp](wa.me/6285172200670)
+## Github: [Click Here](https://github.com/FizzxyDev/BaileysV2) 
+## Any Question? : [Whatsapp](https://wa.me/6285172200670)
 
 
 ![My Card ](https://cardivo.vercel.app/api?name=FizzxyTheGreat%20&description=”aku%20hanya%20bisa%20memprogram%20nya,%20jika%20kodenya%20sudah%20benar,%20program%20itu%20akan%20berjalan%20sesuai,%20keinginan%20pemilik%20aslinya”%20(%20tapi%20ini%20bukan%20soal%20programnya%20)&image=https://b.top4top.io/p_2090f6xvx0.jpg&backgroundColor=%23ecf0f1&instagram=@wfizzx&github=FizzxyDev&pattern=leaf&colorPattern=%23eaeaea)
