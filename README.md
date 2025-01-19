@@ -151,7 +151,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                 "buttonParamsJson": "{\"title\":\"title\",\"sections\":[{\".menu\":\".play dj webito\",\"highlight_label\":\"label\",\"rows\":[{\"header\":\"header\",\"title\":\"title\",\"description\":\"description\",\"id\":\"id\"},{\"header\":\"header\",\"title\":\"title\",\"description\":\"description\",\"id\":\"id\"}]}]}"
               },
               {
-                "name": ".menu",
+                "name": "cta_reply",
                 "buttonParamsJson": "{\"display_text\":\"quick_reply\",\"id\":\"message\"}"
               },
               {
