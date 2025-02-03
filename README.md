@@ -21,7 +21,8 @@ ___
 <audio autoplay="true" src="https://f.top4top.io/m_2092qvkoa0.mp3"></audio>
 
 ## Shop Message: 
-```client.sendMessage(
+```
+client.sendMessage(
     jid, 
     {
         text: "YOUR TEXT",
@@ -39,7 +40,8 @@ ___
 ```
 
 ## Function Album Message
-```const baileys = require("@fizzxydev/baileys-pro");
+```
+const baileys = require("@fizzxydev/baileys-pro");
 async function sendAlbumMessage(jid, medias, options) {
   options = { ...options };
 
