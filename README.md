@@ -20,6 +20,80 @@ ___
 </p>
 <audio autoplay="true" src="https://f.top4top.io/m_2092qvkoa0.mp3"></audio>
 
+## Shop Message: 
+```client.sendMessage(
+    jid, 
+    {
+        text: "YOUR TEXT",
+        title: "YOUR TITLE",
+        subtitle: "YOUR SUBTITLE",
+        footer: "FOOTER",
+        viewOnce: true,
+        shop: 3,
+        id: "199872865193",
+    },
+  {
+    quoted : m
+  }
+)
+```
+
+## Function Album Message
+```const baileys = require("@fizzxydev/baileys-pro");
+async function sendAlbumMessage(jid, medias, options) {
+  options = { ...options };
+
+  const caption = options.text || options.caption || "";
+
+  const album = baileys.generateWAMessageFromContent(jid, {
+    albumMessage: {
+      expectedImageCount: medias.filter(media => media.type === "image").length,
+      expectedVideoCount: medias.filter(media => media.type === "video").length,
+      ...(options.quoted ? {
+        contextInfo: {
+          remoteJid: options.quoted.key.remoteJid,
+          fromMe: options.quoted.key.fromMe,
+          stanzaId: options.quoted.key.id,
+          participant: options.quoted.key.participant || options.quoted.key.remoteJid,
+          quotedMessage: options.quoted.message
+        }
+      } : {})
+    }
+  }, { quoted: m});
+
+  await client.relayMessage(album.key.remoteJid, album.message, {
+    messageId: album.key.id
+  });
+
+  for (const media of medias) {
+    const { type, data } = media;
+    const img = await baileys.generateWAMessage(album.key.remoteJid, {
+      [type]: data,
+      ...(media === medias[0] ? { caption } : {})
+    }, {
+      upload: client.waUploadToServer
+    });
+    img.message.messageContextInfo = {
+      messageAssociation: {
+        associationType: 1,
+        parentMessageKey: album.key
+      }
+    };
+    await client.relayMessage(img.key.remoteJid, img.message, {
+      messageId: img.key.id
+    });
+  }
+
+  return album;
+}
+
+// How to use ?
+sendAlbumMessage(m.chat, [
+  { type: "image", data: { url: "https://example.jpg" } },
+  { type: "image", data: { url: "https://example.jpg" } }
+], { caption: "© FizxxyTheGreat-2025" });
+```
+
 ## Buttons Message:
 ```
 // send old a buttons
